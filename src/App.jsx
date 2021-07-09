@@ -15,8 +15,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+          <h1 className = "text-white hover:text-yellow-500">Learn React</h1></a>
+        <div>
+          <button className="border-2 rounded bg-black hover:bg-blue-400 hover:text-blue-900 mx-5 my-5 px-2 py-1  transform motion-safe:hover:scale-110">Click Me!!</button>
+        </div>
+        
       </header>
     </div>
   );
